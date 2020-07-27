@@ -15,7 +15,7 @@ Speaking of using your webbrowser, you might already know from the previous less
 
 
 ## Labs
-### Lab 1: Compute Resources
+### Lab 1: Managing Compute Resources
 In this lab, you will learn how to create a new compute resource, how to modify an existing one and how to stop, restart or delete it.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/50fa8755-d4eb-413d-9b5d-6277671452b2)
@@ -27,6 +27,22 @@ In this lab, you will learn how to create a new compute resource, how to modify 
 7. Select your compute resource in the list and click on its name to view details about the compute. You can also click on any of the buttons to stop, delete or restart the resource.
 8. Go back to the list of computes and take a look at the *Application URI* column. By clicking on any of the links, a new browser tab with the respective development environment will be launched. 
 ![screenshot of the list of compute resources](images/lab-1-list.jpg)
+
+### Lab 2: Managed Notebook Environments
+In this lab, you will learn how to train a simple SciKit learn model using a managed notebook environment.
+
+1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/d3b43f98-bd8b-4c5d-ba6d-c19cbdd5bfd0)
+2. Open the *Studio* and navigate to the *Compute* tab, just as you did in the last lab. Note that you won't need to create a new instance this time, as the workspace will already have one prepared for you.
+3. In the *Application URI* column, click on the *Jupyter* link.
+4. In Jupyter, open a terminal by clicking on *New* and *Terminal*
+5. Download an example notebook by using `git clone https://github.com/solliancenet/udacity-intro-to-ml-labs.git`
+6. From within the Jupyter interface, navigate to directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook` and open `1st-experiment-sdk-train-model.ipynb`.
+7. Read through the notebook to get a quick overview
+8. Select "Cell" and "Run All" ´, click on the login-link in the first cells output and then wait for the run to be completed.
+9. in the directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook/outputs`, you will find the trained `.pkl` model file for each iteration.
+![screenshot of the generated output](images/lab-2-output.jpg)
+10. *Optional:* Modify the notebook as you want and re-run code by clicking on "Kernel" and "Restart & Run All". 
+
 
 ## About
 
