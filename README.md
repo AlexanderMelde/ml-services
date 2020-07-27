@@ -15,7 +15,7 @@ Speaking of using your webbrowser, you might already know from the previous less
 
 
 ## Labs
-### Lab 1: Managing Compute Resources
+### Lab 1 (6.5): Managing Compute Resources
 In this lab, you will learn how to create a new compute resource, how to modify an existing one and how to stop, restart or delete it.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/50fa8755-d4eb-413d-9b5d-6277671452b2)
@@ -28,7 +28,7 @@ In this lab, you will learn how to create a new compute resource, how to modify 
 8. Go back to the list of computes and take a look at the *Application URI* column. By clicking on any of the links, a new browser tab with the respective development environment will be launched. 
 ![screenshot of the list of compute resources](images/lab-1-list.jpg)
 
-### Lab 2: Managed Notebook Environments
+### Lab 2 (6.9): Managed Notebook Environments
 In this lab, you will learn how to train a simple SciKit learn model using a managed jupyter notebook environment.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/d3b43f98-bd8b-4c5d-ba6d-c19cbdd5bfd0)
@@ -43,7 +43,7 @@ In this lab, you will learn how to train a simple SciKit learn model using a man
 ![screenshot of the generated output](images/lab-2-output.jpg)
 10. *Optional:* Modify the notebook as you want and re-run code by clicking on "Kernel" and "Restart & Run All". 
 
-### Lab 3: Experiments and Runs for Basic Modeling
+### Lab 3 (6.13): Introduction to Experiments and Runs (Basic Modeling)
 In this lab, you will learn how to create an experiment process and how to create and execute a run based on the experiment (which will train a model for you). We will also save the generated model to a model registry.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/5cae4a97-abe3-4a05-be3e-6daf923427f4)
@@ -56,13 +56,40 @@ In this lab, you will learn how to create an experiment process and how to creat
 7. Add additional columns to the run list by clicking on *Edit table* and moving the *Start Time* and *End Time* entries to the right. Close the window using the *Save* button.
 8. Click on one of the *Run IDs* to view information about a specific run. In the *Outputs + logs* tab, you should be able to see one of the outputs you previously saw inside the jupyter filebrowser. You can download the model if you like.
 
+### Lab 4 (6.18): Deploy a Model as a Webservice (Advanced Modeling)
+In this lab, you will learn how to create a ML pipeline including obtaining, importing and preparing data, building and training Models as well as deploying (=operationalizing) and predicting them. Such a MLOps integrated process will ensure model repoducibility, model validation, model deployment and model retraining.
+
+A typical model deployment consists of:
+1. getting the model file
+2. creating a scoring script
+3. in some cases creating a schema file describing the web service input 
+4. creating a (real-time or batch) inference web service which can be called from your application
+5. repeating the process for each time the model is retrained
+
+These are the steps you need to do in the lab:
+1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/4ca28599-e40d-433d-9b4b-30f9f35a152d)
+2. Open the *Studio* just as you did in the previos labs
+3. Click on *Designer* in the left menu and create a new pipeline based on the *Sample 1: Regression - Automobile Price Prediction...* template.
+4. In the now open *visual pipeline authoring editor* settings, click on *Select compute target* and chose the existing entry from the list. Then, click *Save* and *Submit*, to open a popup window.
+5. In the *Set up pipeline run* popup, create a new experiment with a unique name of your choice.
+6. Wait for the pipeline run to complete (~10min). In the top-right corner, you will see the status of your experiment. 
+![screenshot of the visual pipeline editor](images/lab-4-visual-editor.jpg)
+7. Create a new real-time inference pipeline using the top-right button
+8. Click on the submit button, in the popup select your experiment and submit the popup. If you have trouble clicking the submit button, click the button to the right of the deploy button (three dots) and choose cloning. Once you clone, try again and the issue should be resolved.
+9. Wait for the pipeline run to finish (~7 min) and then click on *Deploy*.
+10. Deploy a new real-time endpoint using your existing compute target and wait for the deployment to complete. 
+![screenshot of the visual pipeline deployment message](images/lab-4-deployment.jpg)
+11. To view information about the deployed web service, select *Endpoints* in the left menu and then click on the name of your created real-time endpoint.
+12. Change to the *Consume* tab to read the REST endpoint and authentification keys as well as code samples for calling the endpoint in C#, Python and R.
+13. *Optional:* If you want, you can copy the python code to a new compute notebook and run it, to see if you can access the web service endpoint. ![screenshot of calling the endpoint](images/lab-4-endpoint.jpg)
 
 ## About
+This guide was written by Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳 ) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
 
 ### Contributing
 Feel free to send pull requests or open an issue if you have any questions.
 
- All commit messages should follow the [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/).
+All commit messages should follow the [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/).
 
 ### License
 The content of this repository is released under the [MIT license](LICENSE).
