@@ -29,7 +29,7 @@ In this lab, you will learn how to create a new compute resource, how to modify 
 ![screenshot of the list of compute resources](images/lab-1-list.jpg)
 
 ### Lab 2: Managed Notebook Environments
-In this lab, you will learn how to train a simple SciKit learn model using a managed notebook environment.
+In this lab, you will learn how to train a simple SciKit learn model using a managed jupyter notebook environment.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/d3b43f98-bd8b-4c5d-ba6d-c19cbdd5bfd0)
 2. Open the *Studio* and navigate to the *Compute* tab, just as you did in the last lab. Note that you won't need to create a new instance this time, as the workspace will already have one prepared for you.
@@ -39,9 +39,22 @@ In this lab, you will learn how to train a simple SciKit learn model using a man
 6. From within the Jupyter interface, navigate to directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook` and open `1st-experiment-sdk-train-model.ipynb`.
 7. Read through the notebook to get a quick overview
 8. Select "Cell" and "Run All" ´, click on the login-link in the first cells output and then wait for the run to be completed.
-9. in the directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook/outputs`, you will find the trained `.pkl` model file for each iteration.
+9. in the directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook/outputs`, you will find the trained `.pkl` model file for each iteration (run).
 ![screenshot of the generated output](images/lab-2-output.jpg)
 10. *Optional:* Modify the notebook as you want and re-run code by clicking on "Kernel" and "Restart & Run All". 
+
+### Lab 3: Experiments and Runs for Basic Modeling
+In this lab, you will learn how to create an experiment process and how to create and execute a run based on the experiment (which will train a model for you). We will also save the generated model to a model registry.
+
+1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/5cae4a97-abe3-4a05-be3e-6daf923427f4)
+2. Open the *Jupyter Terminal* and download the git repository just as you did in the last lab.
+3. From within the Jupyter interface, navigate to directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-20/notebook` and open `1st-experiment-sdk-train-model.ipynb`.
+4. Run all of the code and check if the output has been generated, just as you did in the last lab. The output directory will this time be `udacity-intro-to-ml-labs/aml-visual-interface/lab-20/notebook/outputs`.
+5. Within Azure Machine Learning Studio, select *Experiments* in the left-hand menu, then select the *diabetes-experiment*, which is created by the notebook you just executed.
+6. Take a look at the dashboard and view details about the experiment and its runs.
+![screenshot of the experiment dashboard](images/lab-3-dashboard.jpg)
+7. Add additional columns to the run list by clicking on *Edit table* and moving the *Start Time* and *End Time* entries to the right. Close the window using the *Save* button.
+8. Click on one of the *Run IDs* to view information about a specific run. In the *Outputs + logs* tab, you should be able to see one of the outputs you previously saw inside the jupyter filebrowser. You can download the model if you like.
 
 
 ## About
