@@ -13,8 +13,13 @@ In comparison to local development, you don't need to install any applications a
 
 Speaking of using your webbrowser, you might already know from the previous lessions, that you need to prelaunch your lab environment to get the scholarship account details. Visit [this page](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/0d9d532d-d0e3-4a76-bfa3-fd6630372628) and click on the blue *Prelaunch Lab* button before moving on.
 
+## FAQ
+[Click here to go the FAQ.](FAQ.md)
 
 ## Labs
+In this section, you will find step-by-step introductions for each lab, so you can easily progress.
+If there are any known errors in the original lab guide, corrections and workarounds are included in these steps.
+
 ### Lab 1 (6.5): Managing Compute Resources
 In this lab, you will learn how to create a new compute resource, how to modify an existing one and how to stop, restart or delete it.
 
@@ -84,7 +89,7 @@ These are the steps you need to do in the lab:
 13. *Optional:* If you want, you can copy the python code to a new compute notebook and run it, to see if you can access the web service endpoint. ![screenshot of calling the endpoint](images/lab-4-endpoint.jpg)
 
 ## About
-This guide was written by Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳 ) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
+This guide was written by the student leaders of lesson six: Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
 
 ### Contributing
 Feel free to send pull requests or open an issue if you have any questions.
