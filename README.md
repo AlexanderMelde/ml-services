@@ -43,7 +43,7 @@ In this lab, you will learn how to train a simple SciKit learn model using a man
 5. Download an example notebook by using `git clone https://github.com/solliancenet/udacity-intro-to-ml-labs.git`
 6. From within the Jupyter interface, navigate to directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook` and open `1st-experiment-sdk-train-model.ipynb`.
 7. Read through the notebook to get a quick overview
-8. Select "Cell" and "Run All" ´, click on the login-link in the first cells output and then wait for the run to be completed.
+8. Select "Cell" and "Run All" ´, click on the login-link in the first cells output and then wait for the run to be completed. If the run stops after the login cell, even though you logged in, just click on "Run All" again.
 9. in the directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-19/notebook/outputs`, you will find the trained `.pkl` model file for each iteration (run).
 ![screenshot of the generated output](images/lab-2-output.jpg)
 10. *Optional:* Modify the notebook as you want and re-run code by clicking on "Kernel" and "Restart & Run All". 
