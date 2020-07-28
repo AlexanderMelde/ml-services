@@ -37,7 +37,7 @@ In this lab, you will learn how to create a new compute resource, how to modify 
 In this lab, you will learn how to train a simple SciKit learn model using a managed jupyter notebook environment.
 
 1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/d3b43f98-bd8b-4c5d-ba6d-c19cbdd5bfd0)
-2. Open the *Studio* and navigate to the *Compute* tab, just as you did in the last lab. Note that you won't need to create a new instance this time, as the workspace will already have one prepared for you.
+2. Open the *Studio* and navigate to the *Compute* list, just as you did in the last lab. Note that you won't need to create a new instance this time, as the workspace will already have one prepared for you.
 3. In the *Application URI* column, click on the *Jupyter* link.
 4. In Jupyter, open a terminal by clicking on *New* and *Terminal*
 5. Download an example notebook by using `git clone https://github.com/solliancenet/udacity-intro-to-ml-labs.git`
@@ -87,6 +87,18 @@ These are the steps you need to do in the lab:
 11. To view information about the deployed web service, select *Endpoints* in the left menu and then click on the name of your created real-time endpoint.
 12. Change to the *Consume* tab to read the REST endpoint and authentification keys as well as code samples for calling the endpoint in C#, Python and R.
 13. *Optional:* If you want, you can copy the python code to a new compute notebook and run it, to see if you can access the web service endpoint. ![screenshot of calling the endpoint](images/lab-4-endpoint.jpg)
+
+### Lab 5 (6.22): Programmatically Accessing Managed Services
+In this lab, you will use the Azure ML Python SDK to register, package, deploy and test a trained model from source code instead of the GUI you used before.
+
+1. [Open Workspace](https://classroom.udacity.com/nanodegrees/nd00332/parts/9e5002de-e740-4eb2-aa15-03861fff12fc/modules/ae74a72a-97c1-4306-b55e-708c58118bd2/lessons/ff14cb2c-d367-4f57-9f35-244fd1aceda2/concepts/e327e325-dd3b-42b2-b1d7-b29397a5c765)
+2. Open the *Studio* and open Jupyter from the *Compute* list, just as you did in the last labs.
+3. Open a new Terminal in Jupyter and clone the example code using `git clone https://github.com/solliancenet/udacity-intro-to-ml-labs.git`.
+4. From within the Jupyter interface, navigate to the directory `udacity-intro-to-ml-labs/aml-visual-interface/lab-22/notebook` and open `deployment-with-AML.ipynb`.
+5. From your workspaces homepage (with the *Launch Now* button), copy the subsription id, resource group, workspace name and workspace region to the empty string variables in the jupyter notebook.
+![screenshot of copying the workspace details](https://raw.githubusercontent.com/solliancenet/udacity-intro-to-ml-labs/master/aml-visual-interface/lab-22/images/aml-values.png)
+6. Read through and run all the notebook cells. The notebook will create a docker container that will be run as our webservice and then make calls to this webservice.
+7. Check the *Studio* page, and you will see a new entry in the endpoints list.
 
 ## About
 This guide was written by the student leaders of lesson six: Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳 [@ramkundu](https://github.com/ramkundu)) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
