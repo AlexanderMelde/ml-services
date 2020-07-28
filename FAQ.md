@@ -19,3 +19,8 @@
 |---------|----------|--------|
 |     6.5 | What's the diference between Real-time Inferencing, Batch Inferencing and Lambda architecture? | lamba is the architecture where it helps you to process 2 types of requests. Real time data is usually a single input request where the priority is to get results  asap within millsecs. Time is the constraint. Like avoid fraud attacks right there itself. Batch inferencing allows delays to process request and drive results. It's more to be used if you want to analyze batch of new input data and make some changes to your existing model architecture. [[view post](https://microsoftmlchallenge.slack.com/archives/C016D8H6BJR/p1595868804463200?thread_ts=1595868551.462000&cid=C016D8H6BJR)]
 |     6.4 | What's the difference between compute resources, compute instances and compute clusters? | a compute resource refers to a compute object that can be used in the Azure machine learning environment. That resource can either be a compute instance or a compute cluster.   A compute cluster is a cluster of computers created using single/multiple compute nodes [[view post 1 (overview)](https://microsoftmlchallenge.slack.com/archives/C016D8H6BJR/p1595832933429000?thread_ts=1595830898.428800&cid=C016D8H6BJR), [view post 2 (detailed)](https://microsoftmlchallenge.slack.com/archives/C0171MB80FP/p1595918534474500)] |
+
+## Errors already fixed by Udacity
+| Section | Question | Answer |
+|---------|----------|--------|
+|    6.18 | deploy error: "Failed on step CreateServiceFromModels" | bug has been fixed [[view post](https://microsoftmlchallenge.slack.com/archives/C016D8H6BJR/p1595356166207200?thread_ts=1594546510.490300&cid=C016D8H6BJR)]
