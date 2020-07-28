@@ -89,7 +89,7 @@ These are the steps you need to do in the lab:
 13. *Optional:* If you want, you can copy the python code to a new compute notebook and run it, to see if you can access the web service endpoint. ![screenshot of calling the endpoint](images/lab-4-endpoint.jpg)
 
 ## About
-This guide was written by the student leaders of lesson six: Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
+This guide was written by the student leaders of lesson six: Kuldeep Singh Sidhu (🇮🇳 [@singhsidhukuldeep](https://github.com/singhsidhukuldeep)), Ramkrishna Kundu (🇮🇳 [@ramkundu](https://github.com/ramkundu)) and Alexander Melde (🇩🇪 [@AlexanderMelde](https://github.com/AlexanderMelde/)).
 
 ### Contributing
 Feel free to send pull requests or open an issue if you have any questions.
