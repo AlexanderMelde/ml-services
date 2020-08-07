@@ -16,6 +16,9 @@ Speaking of using your webbrowser, you might already know from the previous less
 ## FAQ
 [Click here to go the FAQ.](FAQ.md)
 
+## Course Notes
+[Click here to view the notes of this lesson](course_notes_priyanka_umre.pdf), written by [@PriyankaUmre](https://github.com/PriyankaUmre).
+
 ## Labs
 In this section, you will find step-by-step introductions for each lab, so you can easily progress.
 If there are any known errors in the original lab guide, corrections and workarounds are included in these steps.
