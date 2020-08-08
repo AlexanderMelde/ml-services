@@ -23,6 +23,9 @@ Speaking of using your webbrowser, you might already know from the previous less
 
 ## FAQ
 [Click here to go the FAQ.](FAQ.md)
+<p align="center">
+<a href="https://github.com/AlexanderMelde/ml-services/blob/master/FAQ.md" target="_blank"><img src="https://github.com/AlexanderMelde/ml-services/raw/master/images/faq_button.jpg" height=50/></a>
+</p>
 
 ## Course Notes
 [Click here to view the notes of this lesson](course_notes_priyanka_umre.pdf), written by [@PriyankaUmre](https://github.com/PriyankaUmre).
