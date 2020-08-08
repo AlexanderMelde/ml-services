@@ -1,3 +1,11 @@
+<p align="center">
+<a href="https://azure.microsoft.com/en-us/blog/announcing-azure-machine-learning-scholarships-and-courses-with-udacity/"><img src="https://cdn.neow.in/news/images/uploaded/2020/06/1592419710_microsoft_azure_and_udacity_story.jpg"></a>
+<br>
+<a href="https://microsoftmlchallenge.slack.com/archives/C016D8H6BJR"><img src="https://img.shields.io/badge/Join-Slack-blue?logo=slack&style=flat&labelColor=blue&color=black"></a>
+<a href="https://aka.ms/udacityAML"><img src="https://img.shields.io/badge/Course-Page-blue?logo=udacity&style=flat&labelColor=black&color=blue"></a>
+<a href="https://sites.google.com/udacity.com/microsoftazurechallenge"><img src="https://img.shields.io/badge/Google-Site-blue?logo=google&style=flat&labelColor=black&color=blue"></a>
+</p>
+
 # Managed Services for Machine Learning
 This repository is a summary of the content of lesson six of the *Introduction to Machine Learning on Azure* course which is part of the *Microsoft Scholarship Foundation course Nanodegree Program* on *Udacity* (July - September 2020).
 
